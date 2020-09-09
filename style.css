@@ -1,0 +1,54 @@
+body{
+    background-color: #f6acc8;
+    background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+}
+
+h1{
+    color: darkred;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.reset { 
+    position: relative; 
+    width: 20%;
+  } 
+   
+.reset button { 
+    position: absolute; 
+    top: 150px; 
+    right: 0px; 
+  } 
+
+  .txt{
+    background-color: whitesmoke;
+    width: 20rem;
+    text-align: center;
+  }
+
+  h6{
+      color: dimgrey;
+      font-size: 0.8rem;
+  }
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }

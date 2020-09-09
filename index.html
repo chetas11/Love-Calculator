@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/d2ae1bcb75.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Love Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-column flex-center">
+            <h1>Check your Love percentage! <i class="fas fa-heart"></i></h1>
+            <input class="txt m-2" type="text" placeholder ="Enter Your Name" id="fistName">
+            <input class="txt m-2" type="text" placeholder ="Enter Your Partner's Name" id="fistName">
+            <button onclick="cal()" class="btn btn-danger mt-3">Calculate</button>
+            <p class="m-4" id="msg"></p>
+        </div>
+        <div class="reset">
+            <button onclick="reset()" class="btn btn-outline-secondary">Try again</button>    
+        </div>  
+    </div>
+    <script src="./love.js"></script>
+    <footer>
+        <h6>© 2020 Chetan Birmole.</h6>
+    </footer> 
+</body>
+</html>
