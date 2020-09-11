@@ -44,6 +44,7 @@ h1{
   h6{
       color: dimgrey;
       font-size: 0.8rem;
+      font-family: cursive;
   }
 
   footer{
@@ -51,4 +52,19 @@ h1{
     justify-content: center;
     align-items: center;
 
+  }
+
+
+  h5{
+    color: darkred;
+    
+  }
+
+  h5{
+    font-family: cursive;
+    
+  }
+
+  .btn{
+    color: darkred;
   }
